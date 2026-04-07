@@ -1,0 +1,51 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: null
+model_size_bytes: 1595896
+model_uuid: 5d20441247554cbd8079d983eb5bf6ba
+prompts: null
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Spent Liquor into Battery (\u00b0C)", "required":
+    true}, {"type": "double", "name": "LP Steam to De-Superheater (TPH)", "required":
+    true}, {"type": "double", "name": "Lab - SEL Density (g/cc)", "required": true},
+    {"type": "double", "name": "Process Condensate to Tank Farm (m\u00b3/h)", "required":
+    true}, {"type": "double", "name": "Live Steam Condensate (\u00b0C)", "required":
+    true}, {"type": "double", "name": "Spent Liquor Split Flow (m\u00b3/h)", "required":
+    true}, {"type": "double", "name": "LP Steam Before De-Superheater (\u00b0C)",
+    "required": true}, {"type": "double", "name": "SPL - Overflow A/C Ratio", "required":
+    true}, {"type": "double", "name": "Strong Evaporated Liquor Out from Battery (\u00b0C)",
+    "required": true}, {"type": "double", "name": "3rd Effect 2nd Drum Condensate
+    (\u00b0C)", "required": true}, {"type": "double", "name": "MP Steam I/L (\u00b0C)",
+    "required": true}, {"type": "double", "name": "SEL_Flow", "required": true}, {"type":
+    "double", "name": "Separator Vessel 3rd Effect (%)", "required": true}, {"type":
+    "double", "name": "1st Product Flash Drum Liquor O/L (\u00b0C)", "required": true},
+    {"type": "double", "name": "Split_Flow_4th_Effect", "required": true}, {"type":
+    "double", "name": "SPL_NA2CO3", "required": true}, {"type": "double", "name":
+    "Barometric Condenser (Kg/cm\u00b2)", "required": true}, {"type": "double", "name":
+    "Total_Evaporation_Rate", "required": true}, {"type": "double", "name": "Cooling
+    Water to Barometric Condenser (m\u00b3/h)", "required": true}, {"type": "double",
+    "name": "Chest Pressure (Kg/cm\u00b2G)", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-18 15:48:49.887741'

@@ -1,7 +1,7 @@
 # 🏭 Steam Economy Optimization System — Complete Code Documentation
 ### `llm_agent.py` & `query_engine.py` | Industrial Evaporation Plant
 
-> **Prepared by:** Engineering Team  
+> **Prepared by:** Nayan Modi  
 > **Date:** April 2026  
 > **Status:** Active Deployment — Code Structuring & Execution Document  
 > **Purpose:** This document explains what the Steam Economy Optimization system does, how it works step by step, and how the various "brains" (Machine Learning, Physics, and LLM) work together. Written so that anyone (technical or non-technical) can understand it.
